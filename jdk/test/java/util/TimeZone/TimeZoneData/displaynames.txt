@@ -14,7 +14,7 @@ Africa/Ndjamena WAT
 Africa/Sao_Tome GMT
 Africa/Tripoli EET
 Africa/Tunis CET CEST
-Africa/Windhoek CAT
+Africa/Windhoek CAT WAT
 America/Adak HST HDT
 America/Anchorage AKST AKDT
 America/Bahia_Banderas CST CDT
@@ -139,7 +139,7 @@ Europe/Brussels CET CEST
 Europe/Bucharest EET EEST
 Europe/Budapest CET CEST
 Europe/Chisinau EET EEST
-Europe/Dublin GMT/IST GMT/IST
+Europe/Dublin IST/GMT IST/GMT
 Europe/Gibraltar CET CEST
 Europe/Helsinki EET EEST
 Europe/Kaliningrad EET

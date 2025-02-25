@@ -49,7 +49,7 @@ public class TestZoneInfo310 {
         String tzdir = SRCDIR + File.separator + "tzdata";
         String tzfiles = "africa antarctica asia australasia europe northamerica southamerica backward etcetera";
         String jdk_tzdir = SRCDIR + File.separator + "tzdata_jdk";
-        String jdk_tzfiles = "gmt jdk11_backward";
+        String jdk_tzfiles = "gmt jdk11_backward tz2024b_overridden_zones";
         String zidir = TESTDIR + File.separator + "zi";
         File fZidir = new File(zidir);
         if (!fZidir.exists()) {
