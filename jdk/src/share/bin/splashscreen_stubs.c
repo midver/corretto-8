@@ -61,11 +61,11 @@ typedef char* (*SplashGetScaledImageName_t)(const char* fileName,
 #define INVOKEV(name) _INVOKE(name, ,;)
 
 void     DoSplashLoadMemory(void* pdata, int size) {
-    INVOKE(SplashLoadMemory, 0)(pdata, size);
+    INVOKEV(SplashLoadMemory, 0)(pdata, size);
 }
 
 void     DoSplashLoadFile(const char* filename) {
-    INVOKE(SplashLoadFile, 0)(filename);
+    INVOKEV(SplashLoadFile, 0)(filename);
 }
 
 void    DoSplashInit(void) {
